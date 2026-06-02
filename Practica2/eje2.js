@@ -13,6 +13,11 @@ const nombres = productosCaros.map(productos => productos.nombre)
 
 console.log(nombres) //["laptop", "monitor"]
 
+// vercion corta y simple para hacer los dos pasos sen uno mismo
+// const nombres = productos
+//     .filter(producto => producto.precio > 1000)
+//     .map(producto => producto.nombre);
+
 // resultado
 // └─(00:45:51 on main ✭)──> node eje2.js                                                                                           1 ↵ ──(mar,jun02)─┘
 // [ 'laptop', 'monitor' ]
